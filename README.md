@@ -1,10 +1,10 @@
-# 🎨 AI Playground UI  
+#  AI Playground UI  
 
 An interactive **AI Playground User Interface** built with **React.js + TypeScript + Tailwind CSS + Storybook + Vite**.    
 
 ---
 
-## 📌 Research
+##  Research
 
 The project explores existing AI playground platforms and merges their best features:  
 
@@ -14,7 +14,7 @@ The project explores existing AI playground platforms and merges their best feat
 - **Microsoft Copilot Lab** → Prompt templates for beginners  
 - **Perplexity AI** → Light/Dark theme + persistent sidebar  
 
-### ✅ Final Features Chosen
+###  Final Features Chosen
 1. Sidebar model selector  
 2. Prompt editor with Save/Load templates  
 3. Parameter panel (temperature, tokens)  
@@ -24,19 +24,19 @@ The project explores existing AI playground platforms and merges their best feat
 
 ---
 
-## 🎨 Design Section
+##  Design Section
 
 - UI created based on the given **Figma file**  
 - All components styled with **Tailwind CSS tokens** (spacing, colors, typography)  
 - Responsive layout tested across breakpoints  
 
-👉 **Figma Link:** https://www.figma.com/design/fQlj9CruAj2Ix25OiMstL7/Untitled?node-id=1-6  
+ **Figma Link:** https://www.figma.com/design/fQlj9CruAj2Ix25OiMstL7/Untitled?node-id=1-6  
 
 ---
 
-## 💻 Development Section  
+##  Development Section  
 
-### 🛠 Tech Stack
+###  Tech Stack
 - **React.js** – frontend framework  
 - **TypeScript** – type safety  
 - **Tailwind CSS** – styling & responsiveness  
@@ -46,25 +46,24 @@ The project explores existing AI playground platforms and merges their best feat
 
 ---
 
-### ✨ Features Implemented
-- ✅ Sidebar **Model Selector**  
-- ✅ Prompt Editor with Save/Load Templates (mock JSON)  
-- ✅ Parameter Sliders (temperature, max tokens)  
-- ✅ Chat/Output Area with Copy & Download actions  
-- ✅ Light/Dark Theme Toggle (persisted in `localStorage`)  
-- ✅ Responsive Layout (mobile → desktop breakpoints)  
-- ✅ Mock API setup under `/pages/api/`  
+###  Features Implemented
+-  Sidebar **Model Selector**  
+-  Prompt Editor with Save/Load Templates (mock JSON)  
+-  Parameter Sliders (temperature, max tokens)  
+-  Chat/Output Area with Copy & Download actions  
+-  Light/Dark Theme Toggle (persisted in `localStorage`)  
+-  Responsive Layout (mobile → desktop breakpoints)   
 
 ---
 
-## ♿ Accessibility & UX
+##  Accessibility & UX
 - All components are **keyboard-navigable**  
 - Added **ARIA labels** for inputs, sliders, and buttons  
 - Smooth **hover/focus animations** using Tailwind
 
 ---
 
-## 📚 Component Library & Storybook
+##  Component Library & Storybook
 Storybook setup includes reusable UI components with stories:  
 
 - **Button** (primary/secondary, hover states)  
@@ -76,7 +75,7 @@ Run locally with:
 ```bash
 npm run storybook
 
-🚀 Installation & Setup
+ Installation & Setup
 
 Clone the repository:
 git clone [Your GitHub Repo Link]
@@ -91,15 +90,9 @@ npm run dev
 Run Storybook:
 npm run storybook
 
-<img width="1137" height="760" alt="image" src="https://github.com/user-attachments/assets/5b44a974-4377-4a8c-8aaf-947fbbb5c6f8" />
+ Submission
 
-Model Selection & Prompt Editor
-
-Parameters Panel & Response Section
-
-🔗 Submission
-
-Live URL: 
+Live URL: https://ai-playground-ui-theta.vercel.app/
 
 GitHub Repository: 
 
