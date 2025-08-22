@@ -94,6 +94,6 @@ npm run storybook
 
 Live URL: https://ai-playground-ui-theta.vercel.app/
 
-GitHub Repository: 
+GitHub Repository: https://github.com/ShIreen66/AI-Playground-UI.git
 
 Figma Design: https://www.figma.com/design/fQlj9CruAj2Ix25OiMstL7/Untitled?node-id=1-6&p=f&t=bItTvak9FG2d2ntl-0
