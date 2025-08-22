@@ -1,0 +1,5 @@
+[
+  { "id": "gpt-4", "name": "GPT-4" },
+  { "id": "claude-2", "name": "Claude 2" },
+  { "id": "llama-2", "name": "LLaMA 2" }
+]
