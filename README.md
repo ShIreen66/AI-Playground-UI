@@ -1,69 +1,106 @@
-# React + TypeScript + Vite
+# 🎨 AI Playground UI  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive **AI Playground User Interface** built with **React.js + TypeScript + Tailwind CSS + Storybook + Vite**.    
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Research
 
-## Expanding the ESLint configuration
+The project explores existing AI playground platforms and merges their best features:  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **OpenAI Playground** → Clean split layout with prompt editor + parameters panel  
+- **Hugging Face Spaces** → Modular & widget-based interface  
+- **Anthropic Claude UI** → Sidebar model selector, chat-like layout  
+- **Microsoft Copilot Lab** → Prompt templates for beginners  
+- **Perplexity AI** → Light/Dark theme + persistent sidebar  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### ✅ Final Features Chosen
+1. Sidebar model selector  
+2. Prompt editor with Save/Load templates  
+3. Parameter panel (temperature, tokens)  
+4. Copy & Download output actions  
+5. Light/Dark theme toggle (persisted with `localStorage`)  
+6. Responsive layout for mobile → desktop  
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎨 Design Section
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- UI created based on the given **Figma file**  
+- All components styled with **Tailwind CSS tokens** (spacing, colors, typography)  
+- Responsive layout tested across breakpoints  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+👉 **Figma Link:** https://www.figma.com/design/fQlj9CruAj2Ix25OiMstL7/Untitled?node-id=1-6  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 💻 Development Section  
+
+### 🛠 Tech Stack
+- **React.js** – frontend framework  
+- **TypeScript** – type safety  
+- **Tailwind CSS** – styling & responsiveness  
+- **Storybook** – UI documentation/testing  
+- **Vite** – bundler & dev server  
+
+
+---
+
+### ✨ Features Implemented
+- ✅ Sidebar **Model Selector**  
+- ✅ Prompt Editor with Save/Load Templates (mock JSON)  
+- ✅ Parameter Sliders (temperature, max tokens)  
+- ✅ Chat/Output Area with Copy & Download actions  
+- ✅ Light/Dark Theme Toggle (persisted in `localStorage`)  
+- ✅ Responsive Layout (mobile → desktop breakpoints)  
+- ✅ Mock API setup under `/pages/api/`  
+
+---
+
+## ♿ Accessibility & UX
+- All components are **keyboard-navigable**  
+- Added **ARIA labels** for inputs, sliders, and buttons  
+- Smooth **hover/focus animations** using Tailwind
+
+---
+
+## 📚 Component Library & Storybook
+Storybook setup includes reusable UI components with stories:  
+
+- **Button** (primary/secondary, hover states)  
+- **Slider** (temperature, tokens)  
+- **Modal** (for template save/load)  
+- **ChatBubble** (response display UI)  
+
+Run locally with:  
+```bash
+npm run storybook
+
+🚀 Installation & Setup
+
+Clone the repository:
+git clone [Your GitHub Repo Link]
+cd ai-playground-ui
+
+Install dependencies:
+npm install
+
+Run the app locally:
+npm run dev
+
+Run Storybook:
+npm run storybook
+
+<img width="1137" height="760" alt="image" src="https://github.com/user-attachments/assets/5b44a974-4377-4a8c-8aaf-947fbbb5c6f8" />
+
+Model Selection & Prompt Editor
+
+Parameters Panel & Response Section
+
+🔗 Submission
+
+Live URL: 
+
+GitHub Repository: 
+
+Figma Design: https://www.figma.com/design/fQlj9CruAj2Ix25OiMstL7/Untitled?node-id=1-6&p=f&t=bItTvak9FG2d2ntl-0
